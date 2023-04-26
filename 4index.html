@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><form-input></form-input></title>
+    <style>
+        fieldset{
+            border-style: 30px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+    <br>
+    Digite o seu nome: <input type="nome" name="nome"
+    placeholder="EX: João da Silva"required>
+    </br>
+
+    <br>
+    Idade: <input type="idade" name="idade"
+    placeholder="18"required>
+    </br>
+
+    <br>
+    Email: <input type="email" name="email"
+    placeholder="Ex: joao@silva.com"required>
+    </br>
+
+    <br>
+    Senha: <input type="password" name="senha"
+    placeholder="Digite uma senha forte"required>
+    </br>
+
+    <br>
+    Selecione Estado:
+    <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Bahia</option>
+            <option value="">São paulo</option>
+            <option value="">Ceará</option>
+    </select>
+    </br>
+</fieldset>
+<fieldset>
+    <legend>Dados Profissionais</legend>
+    <br>
+        Selecione as Tecnologias:
+       <br><input type="checkbox" name="linguagem1"
+         value="html">HTML
+    <input type="checkbox" name="linguagem2"
+        value="css">CSS
+    <input type="checkbox" name="linguagem3"
+        value="javascript"> Javascript
+    <input type="checkbox" name="linguagem4"
+        value="typescript"> Typescript
+    </br>
+
+    <br>
+        Selecione sua Ocupação:
+        <br><input type ="radio" name="interface1"
+        value="front-end"> Front-end
+        <input type="radio" name="interface2"
+        value="back-end"> Back-End
+        <input type="radio" name="interface3"
+        value="full stack"> Full Stack
+    </br>
+       
+    <br>
+    <class="field">
+        <label for="mensagem">Escreva sobre você:</label>
+        <br><textarea name="mensagem" id="mensagem"required></textarea></br>
+    
+      <br>
+      Anexe seu curriculo: 
+      <input type="file" name="arquivos">
+</br>
+
+    <br>
+   
+</fieldset>
+    <input type="submit" name="acao" value="Enviar">
+    <input type="submit" name="acao" value="Reset">
+</fieldset> 
+
+</body>
+</html>
